@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Raleway:wght@300&family=Satisfy&display=swap');
+.banner {
+  background: linear-gradient(111deg, rgb(0 0 0), rgb(0 0 0 / 51%)), url(https://source.unsplash.com/random/1000x500) center no-repeat;
+  background-size: cover;
+  height: 50vh;
+  position: relative;
+}
+.section-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+}
+.heading-font {
+  font-family: 'Montserrat', sans-serif;
+}
+@media (min-width: 993px) {
+  .fancy-size {
+    font-size: 1.5rem;
+  }
+}
+.fancy-font {
+  font-family: 'Satisfy', cursive ;
+}
+@media (max-width: 992px) {
+  .fancy-size {
+    font-size: 1rem;
+  }
+}
+.container {
+  margin: 0 auto;
+  padding: 0 20%;
+  flex-wrap: wrap;
+}
+p, a {
+  font-family: 'Raleway', sans-serif;
+}
+.highlighted-link {
+  text-decoration: none;
+  background-color: rgba(255, 138, 255, 0.507);
+  padding: 0.2rem 0.3rem;
+  color: #000000;
+}
+.highlighted-link:hover {
+  text-decoration: none;
+  background-color: rgb(241, 41, 241);
+  color: #ffffff;
+}
